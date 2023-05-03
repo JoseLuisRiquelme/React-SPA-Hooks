@@ -18,7 +18,7 @@ const Nav=()=>{
           <span role="img" aria-label="dog">🍕</span>Pizzeria Mamma Mia!
           </NavLink>
           </Navbar.Brand>
-          <span style={{textDecoration:"none", border:"0.2px solid white", borderRadius:"5px"}}><a href='#' target='_blank'>Link to code</a></span>
+          <span style={{textDecoration:"none", border:"0.2px solid white", borderRadius:"5px"}}><a href='https://github.com/JoseLuisRiquelme/React-SPA-Hooks' target='_blank'>Link to code</a></span>
           <NavLink className={setActiveClass} to="/carrito">         
           <span  style={{margin:"5px 10px"}}><span role="img" aria-label="dog">🛒</span>${sum2.toLocaleString('es-CL')}</span>         
           </NavLink>
